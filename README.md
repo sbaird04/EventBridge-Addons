@@ -12,5 +12,3 @@ A staff developer can create a separate Velocity plugin (such as a new Spleef va
 4. Build your own plugin JAR, send it to an administrator for testing on **ERRSA Test**; admin installs it on Velocity. Implement a separate Paper plugin if the game needs Bukkit-world interactions.
 
 The public API version is **1**. Existing Hunger Games and Spleef integrations inside the main EventBridge code are legacy built-ins; this kit is for **future standalone add-ons**.
-
-**Important:** Publish this documentation as a separate GitHub repository. Keep the complete EventBridge repository PRIVATE. Do not upload any `eventbridge-velocity.jar`, core `src/`, real YAML secrets, saved event/whitelist state, or internal data to this repository.
